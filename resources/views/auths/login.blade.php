@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/bootstrap.min.css')}}">
     <title>Login Aplikasi Pengolahan Data Karyawan Perusahaan Industri Milk Me</title>
  <style type="text/css">
  *{
@@ -96,6 +96,6 @@
     </section>
     
     <script src="('js/jquery.js"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
 </body>
 </html>

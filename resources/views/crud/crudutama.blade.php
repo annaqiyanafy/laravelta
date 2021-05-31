@@ -13,8 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <script src="('js/jquery.js"></script>
-    <script src="{{ asset('js/bootstrap.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('js/bootstrap.js') }}"></script>
+    <script src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
     
     <title>Olah Data Karyawan</title>
 </head>
