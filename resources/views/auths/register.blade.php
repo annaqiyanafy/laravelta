@@ -101,7 +101,7 @@
                         <button type="submit" class="btn1 btn btn-primary" >REGISTER</button>
                     </div>
                     <div class="button">
-                        Sudah punya akun?<span class="helper-text"><i class="fa fa-lock"></i><a href="/login"> Login disini</a></span>
+                        Sudah punya akun?<span class="helper-text"><i class="fa fa-lock"></i><a href="/"> Login disini</a></span>
                     </div>
         
         </form>

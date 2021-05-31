@@ -49,7 +49,7 @@ class AuthController extends Controller
 
         Session::flash('sukses','Anda berhasil register!');
 
-        return redirect('/login');
+        return redirect('/');
     }
 
     public function logout(Request $request)
@@ -58,6 +58,6 @@ class AuthController extends Controller
 
         Session::flash('sukses','Anda berhasil logout!');
 
-        return redirect('/login');
+        return redirect('/');
     }
 }
