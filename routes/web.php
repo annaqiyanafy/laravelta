@@ -27,7 +27,6 @@ Route::get('/olahdatakaryawan/edit/{id}', 'DashboardController@edit' );
 Route::post('/olahdatakaryawan/update', 'DashboardController@update');
 Route::post('/olahdatakaryawan/tambah', 'DashboardController@tambah');
 
-Route::get('/', 'DashboardController@welcometoapp' );
 Route::get('/login', 'AuthController@login' );
 Route::post('/postlogin', 'AuthController@postlogin' )->name('postlogin');
 Route::get('/register', 'AuthController@register' );
