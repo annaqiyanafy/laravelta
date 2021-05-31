@@ -1,0 +1,64 @@
+body{
+background : #FFA500
+}
+
+	#backlogin {
+	background :white;
+    width: 26%;
+    height: 370px;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    margin-top: 120px;
+  }
+	 #backlogin form {
+    margin-top: 25px;
+    float: left;
+    padding: 5px;
+  }
+	
+	#backlogin h2{
+    text-align: center;
+    padding: 5px;
+    color: #6a82fb;
+    font-family: Product Sans;
+  }
+
+  #backlogin hr {
+    width: 50%;
+    height: 4px;
+    border: none;
+    background: #6a82fb;
+  
+  }
+  
+  	#backlogin .a {
+		font-family: broadway ;
+		width: 90%;
+		height: 50px;
+		border: 0px;
+		border-bottom: 1px solid #6a82fb;
+		font-size: 16px;
+		font-family: OpenSans-Light;
+		background: transparent;
+	}
+	
+	#backlogin .b {
+    margin-top: 40px;
+    width: 45%;
+    height: 40px;
+    background: #6a82fb;
+    border: none;
+    color: white;
+    font-family: product sans;
+    font-size: 20px;
+    border-radius: 5px;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  #backlogin .b:hover,
+	#backlogin .b.horeover{
+	cursor: pointer;
+	color: #1c2842;
+}
+  
+	
