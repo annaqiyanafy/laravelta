@@ -103,6 +103,7 @@ class DashboardController extends Controller
             ]);
 
     DB::table('karyawan')->where('id',$request->id)->update([
+        'id'=>$request->id,
 		'nama' => $request->nama,
 		'tempatlahir' => $request->tempatlahir,
 		'tanggallahir' => $request->tanggallahir,

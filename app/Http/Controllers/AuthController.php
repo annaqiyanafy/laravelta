@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\DB;
 use Session;
 
+
 class AuthController extends Controller
 {
     public function login()
@@ -41,6 +42,7 @@ class AuthController extends Controller
             'password'=>'required|min:5|confirmed' // dicocokan dengan field confirmation
         ]);
         User::create([
+            'id'=>$request->id,
             'name'=>$request->name,
             'email'=>$request->email,
             'password'=> bcrypt($request->password),
