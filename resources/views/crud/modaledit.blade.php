@@ -10,8 +10,8 @@
                             </div>
                             
                             
-                            <div class="modal-body">
-                            <form action="/olahdatakaryawan/update" method="post" class="form-container">
+                        <div class="modal-body">
+                        <form action="/olahdatakaryawan/update" method="post" class="form-container">
                         
                         {{ csrf_field() }}
                                 <div class="box-body">
@@ -81,11 +81,8 @@
                                     </select>
                                 </div>
                                 <input type="submit"  value="Simpan Data" class="btn btn-info">
-                            </div>
-                            
+                            </div>             
                         </form>
-                       
-
                         </div>
                     
                 </div>
