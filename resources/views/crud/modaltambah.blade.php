@@ -17,7 +17,7 @@
                         {{ csrf_field() }}
                             <div class="box-body">
                                 <div class="form-group">
-                                <input type="hidden" name="id" >
+                                    <input type="hidden" name="id" >
                                 </div>
                                 <div class="form-group">
                                     <label>Nama</label>
