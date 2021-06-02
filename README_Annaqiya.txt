@@ -1,3 +1,4 @@
+
 isi DB : laraveltugasakhir di file .env
 migration for insert tables users(login) and karyawan and all the fields
 Untuk table users, ada 2 record data yang saya punya : 
