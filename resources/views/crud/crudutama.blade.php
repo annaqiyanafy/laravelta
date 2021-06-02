@@ -56,10 +56,7 @@
             
             <a href="/olahdatakaryawan/edit/{{$k->id}}" type="button" data-target="#munculmodaledit{{$k->id}}" class="btn btn-info " data-toggle="modal" >Edit</a>
             @include('crud.modaledit')
-            <form action="/olahdatakaryawan/hapus/{{$k->id}}" method="post" onsubmit="return confirm('Yakin hapus data karyawan bernama {{$k->nama}} ?')">
-                @csrf
-                <button class="btn btn-danger " >Hapus</button>
-            </form>
+            <a href="/olahdatakaryawan/hapus/{{$k->id}}" type="button"  onsubmit="return confirm('Yakin hapus data karyawan bernama {{$k->nama}} ?')">Hapus</a>
         </td>
     </tr>
     @endforeach
