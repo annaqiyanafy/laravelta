@@ -81,14 +81,8 @@
                         </div>
                     @endif
                     <div class="form-row">
-                        <button type="submit" class="btn1 btn btn-primary" onclick="login()">LOGIN</button>
+                        <button type="submit" class="btn1 btn btn-primary">LOGIN</button>
                     </div>
-                    <script type="text/javascript">
-                            function login()
-                            {
-                                alert('Anda Berhasil Login!');
-                            }
-                    </script>
                     <div class="button">
                         Belum punya akun?<span class="helper-text"><i class="fa fa-lock"></i><a href="/register"> Daftar disini</a></span>
                     </div>

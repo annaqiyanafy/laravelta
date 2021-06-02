@@ -25,7 +25,7 @@ class AuthController extends Controller
             return redirect()->back()->with('msg','Ada kesalahan nama, email, atau password, silahkan coba lagi!');
        }
 
-       Session::flash('sukses','Anda berhasil login!');
+       return JavaScript(alert("Anda Berhasil Login!"));
        return redirect ('/dashboard');
     }
 
