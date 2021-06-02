@@ -104,14 +104,11 @@
                         Sudah punya akun?<span class="helper-text"><i class="fa fa-lock"></i><a href="/"> Login disini</a></span>
                     </div>
                     @if (\Session::has('berhasildaftar'))
-                        <div class="alert alert-success alert-dismissible show fade">
-                            <div class="alert-body">
-                                <button class="close" data-dismiss="alert">
-                                <span>x</span>
-                                </button>
-                                {!! \Session::get('berhasildaftar') !!}
-                            </div>
-                        </div>
+                    <div class="alert alert-success">
+                        <ul>
+                            <li>{!! \Session::get('berhasildaftar') !!}</li>
+                        </ul>
+                    </div>
                     @endif
         
         </form>
