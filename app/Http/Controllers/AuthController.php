@@ -25,7 +25,7 @@ class AuthController extends Controller
             return redirect()->back()->with('msg','Ada kesalahan nama, email, atau password, silahkan coba lagi!');
        }
 
-       return JavaScript(alert("Anda Berhasil Login!"));
+       return Content("<script language='javascript' type='text/javascript'>alert('Berhasi Login!');</script>");
        return redirect ('/dashboard');
     }
 
