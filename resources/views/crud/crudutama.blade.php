@@ -56,7 +56,7 @@
             
             <a href="/olahdatakaryawan/edit/{{$k->id}}" type="button" data-target="#munculmodaledit{{$k->id}}" class="btn btn-info " data-toggle="modal" >Edit</a>
             @include('crud.modaledit')
-            <a href="/olahdatakaryawan/hapus/{{$k->id}}" type="button"  onsubmit="return confirm('Yakin hapus data karyawan bernama {{$k->nama}} ?')" class="btn btn-danger">Hapus</a>
+            <a href="/olahdatakaryawan/hapus/{{$k->id}}" type="button"  onclick="return confirm('Yakin hapus data karyawan bernama {{$k->nama}} ?')" class="btn btn-danger">Hapus</a>
         </td>
     </tr>
     @endforeach
