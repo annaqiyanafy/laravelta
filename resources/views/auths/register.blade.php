@@ -98,8 +98,14 @@
                         <div>
                     </div>
                     <div class="form-row">
-                        <button type="submit" class="btn1 btn btn-primary" >REGISTER</button>
+                        <button type="submit" class="btn1 btn btn-primary" onclick="register()">REGISTER</button>
                     </div>
+                        <script type="text/javascript">
+                            function register()
+                            {
+                                alert('Anda Berhasil Register!');
+                            }
+                        </script>
                     <div class="button">
                         Sudah punya akun?<span class="helper-text"><i class="fa fa-lock"></i><a href="/"> Login disini</a></span>
                     </div>

@@ -45,8 +45,14 @@
             <div class="dropdown-menu" id="menu2" aria-labelledby="smallerscreenmenu" style="background:#007BFF;">
                 <a class="dropdown-item" href="/olahdatakaryawan">Olah Data Karyawan</a>
                 <a class="dropdown-item" href="/akun">Account</a>
-                <a class="dropdown-item" href="/logout">Logout</a>
-            </div>
+                <a class="dropdown-item" href="/logout" onclick="logout()">Logout</a>
+                <script type="text/javascript">
+                            function logout()
+                            {
+                                alert('Anda Berhasil Logout!');
+                            }
+                    </script>
+                </div>
         </li>
         </ul>
        </div>
@@ -93,9 +99,15 @@
                 <a href="/akun" class="list-group-item list-group-item-action bg-dark text-white">
                     <span class="menu-collapsed">Account</span>
                 </a>
-                <a href="/logout" class="list-group-item list-group-item-action bg-dark text-white">
-                    <span class="menu-collapsed">Log Out</span>
+                <a href="/logout" class="list-group-item list-group-item-action bg-dark text-white" onclick="logout()">
+                    <span class="menu-collapsed" >Log Out</span>
                 </a>
+                <script type="text/javascript">
+                            function logout()
+                            {
+                                alert('Anda Berhasil Logout!');
+                            }
+                    </script>
             </div>            
         </ul>
     </div> 
