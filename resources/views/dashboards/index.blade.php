@@ -93,7 +93,7 @@
                 <a href="/akun" class="list-group-item list-group-item-action bg-dark text-white">
                     <span class="menu-collapsed">Account</span>
                 </a>
-                <a href="/" class="list-group-item list-group-item-action bg-dark text-white">
+                <a href="/logout" class="list-group-item list-group-item-action bg-dark text-white">
                     <span class="menu-collapsed">Log Out</span>
                 </a>
             </div>            
