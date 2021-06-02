@@ -25,8 +25,7 @@ class AuthController extends Controller
             return redirect()->back()->with('msg','Ada kesalahan nama, email, atau password, silahkan coba lagi!');
        }
 
-       return Content("<script language='javascript' type='text/javascript'>alert('Berhasi Login!');</script>");
-       return redirect ('/dashboard');
+       return redirect ('/dashboard')->with('berhasillogin', 'Anda berhasil login!');   
     }
 
     public function register()
@@ -48,9 +47,8 @@ class AuthController extends Controller
 
         ]);
 
-        Session::flash('sukses','Anda berhasil register!');
 
-        return redirect('/');
+        return redirect('/')->with('berhasildaftar', 'Anda telah terdaftar!');   
     }
 
     public function logout(Request $request)

@@ -98,17 +98,21 @@
                         <div>
                     </div>
                     <div class="form-row">
-                        <button type="submit" class="btn1 btn btn-primary" onclick="register()">REGISTER</button>
+                        <button type="submit" class="btn1 btn btn-primary" >REGISTER</button>
                     </div>
-                        <script type="text/javascript">
-                            function register()
-                            {
-                                alert('Anda Berhasil Register!');
-                            }
-                        </script>
                     <div class="button">
                         Sudah punya akun?<span class="helper-text"><i class="fa fa-lock"></i><a href="/"> Login disini</a></span>
                     </div>
+                    @if (\Session::has('berhasildaftar'))
+                        <div class="alert alert-success alert-dismissible show fade">
+                            <div class="alert-body">
+                                <button class="close" data-dismiss="alert">
+                                <span>x</span>
+                                </button>
+                                {!! \Session::get('berhasildaftar') !!}
+                            </div>
+                        </div>
+                    @endif
         
         </form>
         </div>
