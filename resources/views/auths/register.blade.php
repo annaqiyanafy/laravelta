@@ -54,6 +54,10 @@
                     <h4>Please register to enter the app</h4>
 
                     <div class="form-row" >
+                        <input name="id" type="hidden">
+                    </div>
+
+                    <div class="form-row" >
                         <div class="col-lg-7">
                         <input type ="text" name="name" class="form-control {{$errors->has('name') ? 'is-invalid' : ''}} my-3 p-4" placeholder="Username.." required="required autofocus" 
                         value="{{old('name')}}">
