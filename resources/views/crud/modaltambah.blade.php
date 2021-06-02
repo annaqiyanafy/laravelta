@@ -17,9 +17,6 @@
                         {{ csrf_field() }}
                             <div class="box-body">
                                 <div class="form-group">
-                                <input type="hidden" name="id" >
-                                </div>
-                                <div class="form-group">
                                     <label>Nama</label>
                                     <input type="text" name="nama"  required="required" class="form-control" placeholder="Nama..">
                                 </div>
